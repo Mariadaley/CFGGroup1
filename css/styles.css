@@ -9,7 +9,7 @@ body {
   /* background-color: #272727; */
   font-family: sans-serif;
   font-weight: bold;
-  color: #333333;
+  color: palegoldenrod;
 }
 
 
@@ -126,6 +126,13 @@ a {
   position: absolute;
   align-self: center;
   padding: 10px;
+  
+  .contactFormContainer {
+  /* this code is to center the form on the contact page on top of the image divs*/
+  position: absolute;
+  align-self: center;
+  padding: 10px;
+  text-align: center;
 
   /* this code is to position the search bar and calendar properly in the form container */ 
   display: flex;
